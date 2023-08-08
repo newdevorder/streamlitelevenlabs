@@ -1,0 +1,3 @@
+python-dotenv
+streamlit
+elevenlabs==0.2.19
