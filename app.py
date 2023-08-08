@@ -8,6 +8,8 @@ ELEVENLABS_API_KEY = os.getenv('ELEVENLABS_API_KEY')
 # Import the 'generate' and 'play' functions from the 'elevenlabs' module
 from elevenlabs import generate, play
 
+set_api_key('ELEVENLABS_API_KEY')
+
 # Define a text to be converted into speech
 text_to_convert = "¡Hola! Mi nombre es Allison, encantado de conocerte. Soy un apasionado de la tecnología y siempre estoy buscando formas innovadoras de mejorar la vida cotidiana. Mi interés por la informática comenzó desde una edad temprana, cuando desarmaba y volvía a armar dispositivos electrónicos solo por diversión. A medida que crecí, esta curiosidad se transformó en una verdadera pasión por aprender sobre programación y desarrollo de software. Me emociona la posibilidad de crear soluciones útiles y eficientes a través del código, ya sea diseñando aplicaciones que simplifiquen tareas o contribuyendo a proyectos de código abierto. Además de mi amor por la tecnología, disfruto explorando la naturaleza, leyendo sobre diferentes culturas y experimentando con nuevas recetas en la cocina. Creo que cada día brinda oportunidades emocionantes para aprender algo nuevo y estoy emocionado de compartir este viaje con personas afines. Siempre estoy abierto a conversaciones estimulantes y colaboraciones emocionantes que puedan enriquecer mi vida y la de los demás. ¡Espero poder conocerte mejor y descubrir las muchas formas en que podemos crecer juntos!"
 
