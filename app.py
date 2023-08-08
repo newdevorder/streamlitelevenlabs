@@ -12,7 +12,7 @@ from elevenlabs import generate, play
 set_api_key(ELEVENLABS_API_KEY)
 
 # Define a text to be converted into speech
-text_to_convert = "¡Hola! Mi nombre es Allison, encantado de conocerte."
+text_to_convert = "¡Hola! Mi nombre es Arnold, encantado de conocerte. Soy un apasionado de la tecnología y siempre estoy buscando formas innovadoras de mejorar la vida cotidiana. Mi interés por la informática comenzó desde una edad temprana, cuando desarmaba y volvía a armar dispositivos electrónicos solo por diversión. A medida que crecí, esta curiosidad se transformó en una verdadera pasión por aprender sobre programación y desarrollo de software. Me emociona la posibilidad de crear soluciones útiles y eficientes a través del código, ya sea diseñando aplicaciones que simplifiquen tareas o contribuyendo a proyectos de código abierto.."
 
 # Specify the voice to be used for text-to-speech conversion
 selected_voice = "n1Vh9dBauiqn81Oc1jRs"
