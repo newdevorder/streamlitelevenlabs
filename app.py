@@ -4,11 +4,10 @@ from elevenlabs import generate, set_api_key
 from elevenlabs.api import Voices
 import streamlit as st
 
-ELEVENLABS_API_KEY = os.getenv('ELEVENLABS_API_KEY')
-
 # Import the 'generate' and 'play' functions from the 'elevenlabs' module
 from elevenlabs import generate, play
 
+ELEVENLABS_API_KEY = os.getenv('ELEVENLABS_API_KEY')
 set_api_key(ELEVENLABS_API_KEY)
 
 # Define a text to be converted into speech
