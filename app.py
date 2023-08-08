@@ -15,7 +15,7 @@ set_api_key(ELEVENLABS_API_KEY)
 text_to_convert = "¡Hola! Mi nombre es Allison, encantado de conocerte."
 
 # Specify the voice to be used for text-to-speech conversion
-selected_voice = "21m00Tcm4TlvDq8ikWAM"
+selected_voice = "n1Vh9dBauiqn81Oc1jRs"
 
 # Specify the text-to-speech model to be used
 selected_model = 'eleven_multilingual_v1'
