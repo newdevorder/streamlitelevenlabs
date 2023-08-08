@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 from elevenlabs import generate, set_api_key
 from elevenlabs.api import Voices
+import streamlit as st
 
 ELEVENLABS_API_KEY = os.getenv('ELEVENLABS_API_KEY')
 
